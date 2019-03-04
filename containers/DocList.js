@@ -3,7 +3,7 @@ import ListView from "../components/listView";
 
 const onPress = () => {
   // API
-  fetch(
+  var data = fetch(
     "https://storm-devdb.zoylo.com/zoylogateway-0.0.1-SNAPSHOT/zoylodoctor/zoylodoctor-0.0.1-SNAPSHOT/api/doctor-details/filters",
     {
       method: "POST",
